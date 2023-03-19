@@ -1,0 +1,52 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    text-decoration:none;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.header{
+    background-color: #101010;
+    padding:0.05em 3em;
+}
+
+.logo-container{
+    color:white;
+}
+
+.content{
+    font-size: 20px;
+}
+
+@media (min-width: 1000px){
+    .content{
+        width: 1000px;
+        margin: auto;
+    }
+}
+
+.illustration{
+    float:left;
+    width:400px;
+    border-radius:10px;
+    margin-right:10px;
+}
+
